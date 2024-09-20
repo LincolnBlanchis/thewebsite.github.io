@@ -1,59 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie Clicker</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-image: url('https://images.unsplash.com/photo-1612880260543-3e7cda90a72f');
-            background-size: cover;
-            color: #fff;
-        }
-        #cookie {
-            width: 200px;
-            cursor: pointer;
-            margin: 20px;
-        }
-        #score {
-            font-size: 2em;
-            margin-top: 20px;
-        }
-        #upgrade {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            cursor: pointer;
-            background-color: #ffcc00;
-            border: none;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Cookie Clicker</h1>
-    <img id="cookie" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Cookie_icon.svg/1200px-Cookie_icon.svg.png" alt="Cookie" />
-    <div id="score">0 cookies</div>
-    <button id="upgrade">Upgrade (Cost: 10 cookies)</button>
-    <script>
-        let score = 0;
-        let clickValue = 1;
-
-        document.getElementById('cookie').onclick = function() {
-            score += clickValue;
-            document.getElementById('score').innerText = score + ' cookies';
-        };
-
-        document.getElementById('upgrade').onclick = function() {
-            if (score >= 10) {
-                score -= 10;
-                clickValue++;
-                document.getElementById('score').innerText = score + ' cookies';
-                this.innerText = `Upgrade (Cost: ${10 * clickValue} cookies)`;
-            }
-        };
-    </script>
-</body>
+<html>
+  <head>
+    <title>Home</title>
+    <meta name="google-site-verification" content="bN8NwG35I9Owaz_wSdy-wBI2z3rvZoDRYr4JW9qEWVs" />
+  </head>
+  <body>
+    <h1>Unblocked Games</h1>
+    <a href = "/CookieClickerUnblocked-From-Lincoln-Blanch"><h3>Cookie Clicker</h3></a>
+  </body>
 </html>
